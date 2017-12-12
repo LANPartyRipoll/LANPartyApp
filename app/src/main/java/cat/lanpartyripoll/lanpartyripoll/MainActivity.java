@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         private String GetData(String qrCode) {
-            String url = "http://lanpartyripoll.cat:8005/inscripcions/" + qrCode;
+            String url = "http://url/inscripcions/" + qrCode;
             HttpURLConnection connexio;
             InputStream inputStream;
             try{
