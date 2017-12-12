@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cat.lanpartyripoll.lanpartyripoll.MainActivity">
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="No s'ha escanejat cap participant. Cal escanejar un QR (i tenir accés a internet) per poder saber qui és el participant del QR."
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/tvInscripcio"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escaneja Qr"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
